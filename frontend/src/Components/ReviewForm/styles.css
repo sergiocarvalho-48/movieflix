@@ -1,0 +1,22 @@
+.review-form-card {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+.base-input {
+    margin-top: 10px;
+}
+
+.review-form-submit {
+    margin-bottom: 10px;
+}
+
+.base-input::placeholder {
+    padding: 0px;
+    color: #9E9E9E;
+  }

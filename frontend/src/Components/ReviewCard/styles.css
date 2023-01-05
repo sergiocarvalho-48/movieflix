@@ -1,0 +1,35 @@
+.review-card {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.review-card img {
+  margin-right: 15px;
+}
+
+.review-card h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.card-top-container {
+  display: flex;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.card-top-container p {
+  display: flex;
+  margin-right: 15px;
+  padding: 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9e9e9e;
+}
