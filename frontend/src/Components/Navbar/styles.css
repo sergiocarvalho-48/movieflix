@@ -1,0 +1,29 @@
+.main-nav {
+  padding-left: 10px !important;
+  min-height: 70px;
+}
+
+.nav-logo-text {
+  font-weight: 700;
+  color: #000000;
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    padding-left: 15px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    padding-left: 23px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    padding-left: 40px !important;
+  }
+}
+
+
