@@ -1,22 +1,61 @@
 .review-form-card {
-    padding: 10px;
-    font-size: 16px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-    margin-bottom: 10px;
-
+  font-size: 16px;
+  height: 155px;
+  padding: 20px 10px 0px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .base-input {
-    margin-top: 10px;
+  margin-bottom: 17px;
 }
 
 .review-form-submit {
-    margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .base-input::placeholder {
-    padding: 0px;
-    color: #9E9E9E;
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  letter-spacing: -0.015em;
+  padding: 0px;
+  color: #9e9e9e;
+}
+
+@media (min-width: 576px) {
+  .review-form-card {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
   }
+}
+
+@media (min-width: 768px) {
+  .review-form-card {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .review-form-card {
+    padding: 15px 33px 15px 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+
+  .base-input {
+    margin-top: 5px;
+  }
+
+  .base-input::placeholder {
+    padding: 0px 20px 0px 5px;
+  }
+}
