@@ -8,7 +8,7 @@
 }
 
 .review-card img {
-  padding: 0px 5px 5px 5px;
+  padding: 0px 4px 4px 2px;
   margin-right: 10px;
 }
 
@@ -29,7 +29,7 @@
 .card-top-container p {
   display: flex;
   margin-right: 15px;
-  padding: 10px;
+  padding: 5px 10px 0px 10px;
   text-align: justify;
   font-size: 16px;
   font-weight: 400;
@@ -39,19 +39,24 @@
 
 @media (min-width: 576px) {
   .review-card {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-@media (min-width: 768px) {
-  .review-card {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
 
+@media (min-width: 768px) {
+  .review-card {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
 @media (min-width: 1200px) {
+  .review-card {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
   .card-top-container {
     margin-left: 8px;
     margin-right: 10px;

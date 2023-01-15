@@ -6,7 +6,6 @@ export type MoviePage<T> = {
     size: number;
     number: number;
     first: boolean;
-    numberOfElements?: number;
+    numberOfElements: number;
     empty: boolean;
-  };
-  
+};

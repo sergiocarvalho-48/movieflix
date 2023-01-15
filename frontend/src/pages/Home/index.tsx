@@ -1,6 +1,7 @@
 import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
-
+import { Route, Switch } from 'react-router-dom';
 import Login from './login';
+
 import './styles.css';
 
 const Home = () => {
@@ -14,7 +15,11 @@ const Home = () => {
         </div>
       </div>
       <div className="home-form-container">
-        <Login />
+        <Switch>
+          <Route path="/">
+            <Login />
+          </Route>
+        </Switch>
       </div>
     </div>
   );

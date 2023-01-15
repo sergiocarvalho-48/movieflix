@@ -1,18 +1,27 @@
 import StarImg from 'assets/images/star.png';
+import { Reviews } from 'type/reviews';
+
+
 import './styles.css';
 
-const ReviewCard = () => {
+type Props = {
+  reviews: Reviews[];
+}
+
+const ReviewCard = ( { reviews } : Props) => {
+
+
 
     return (
         <div className="base-card review-card">
-            <h1> <img src={StarImg} alt="" />Maria Silva</h1>
-            <div className="card-top-container">
-                <p>Gostei muito do filme. Foi muito bom mesmo. Pena que durou pouco.</p>
-            </div>
-            <h1> <img src={StarImg} alt="" />Maria Silva</h1>
-            <div className="card-top-container">
-                <p>Gostei muito do filme. Foi muito bom mesmo. Pena que durou pouco.</p>
-            </div>
+          {reviews?.map((review) => (
+            <div key={review.id}>
+              <h1> <img src={StarImg} alt='' />{review.user.name}</h1>
+              <div className="card-top-container" key={review.id}>
+                  <p>{review.text}</p>
+              </div>
+              </div>
+          ))}
         </div>
     );
 }

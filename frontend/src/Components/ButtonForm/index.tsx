@@ -1,11 +1,15 @@
 import './styles.css';
 
-const ButtonForm = () => {
+type Props = {
+  text: string,
+}
+
+const ButtonForm = ({ text } : Props ) => {
   return (
     <>
         <div className="button-details">
         <button className="btn btn-secundary">
-          <h6>SALVAR AVALIAÇÃO</h6>
+          <h6>{text}</h6>
         </button>
         </div>
     </>

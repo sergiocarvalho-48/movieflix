@@ -10,7 +10,8 @@
 
 .nav-login-logout {
   width: 100px;
-  padding: 4px 7px;
+  height: 30px;
+  padding: 4px;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -34,5 +35,9 @@
 @media (min-width: 1200px) {
   .main-nav {
     padding-left: 40px !important;
+  }
+
+  .nav-login-logout {
+    margin-right: 30px;
   }
 }
