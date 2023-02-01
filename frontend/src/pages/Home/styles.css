@@ -75,3 +75,15 @@
     text-align: left;
   }
 }
+
+@media (min-width: 1400px) {
+  .home-container {
+    margin-left: 0px;
+  }
+
+  .home-banner-container {
+    height: 460px;
+    margin-right: 350px;
+  }
+
+}

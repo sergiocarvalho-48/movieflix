@@ -8,9 +8,7 @@ import history from 'util/history';
 import { removeAuthData } from 'util/storage';
 import './styles.css';
 
-
 const Navbar = () => {
-
   const { authContextData, setAuthContextData } = useContext(AuthContext);
 
   useEffect(() => {
@@ -33,18 +31,19 @@ const Navbar = () => {
       authenticated: false,
     });
     history.replace('/');
-  }
+  };
 
   return (
     <nav className="navbar bg-primary main-nav">
       <div className="container-fluid">
-        <Link to="/" className="nav-logo-text">
+        <Link to="/movies" className="nav-logo-text">
           <h4>MovieFlix</h4>
         </Link>
-          {authContextData.authenticated ? (
-            <Link to="/" className="nav-login-logout" onClick={handleClik}>SAIR</Link>
-          ) : undefined           
-          }
+        {authContextData.authenticated ? (
+          <Link to="/" className="nav-login-logout" onClick={handleClik}>
+            SAIR
+          </Link>
+        ) : undefined}
       </div>
     </nav>
   );

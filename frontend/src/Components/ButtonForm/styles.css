@@ -8,7 +8,7 @@
   border-radius: 4px;
 }
 
-.btn h6 {
+.button-form h6 {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -18,13 +18,22 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 1200px) {
-  .button-details {
-    padding: 0px 377px 0px 377px;
-    justify-content: center;
+@media (min-width: 992px) {
+  .button-details button {
+    margin-top: 10px;
+    margin-left: 215px;
+    margin-right: 215px;
   }
 
-  .btn h6 {
+  .button-form h6 {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button-details button {
+    margin-top: 5px;
+    margin-left: 310px;
+    margin-right: 310px;
   }
 }
