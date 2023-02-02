@@ -18,13 +18,13 @@
 
 @media (min-width: 576px) {
   .home-container {
-    padding: 40px 50px;
+    padding: 40px 30px;
   }
 }
 
 @media (min-width: 768px) {
   .home-container {
-    padding: 40px 145px;
+    padding: 40px 130px;
   }
 }
 
@@ -36,16 +36,14 @@
 
 @media (min-width: 1200px) {
   .home-container {
-    padding: 40px;
+    padding-left: 230px;
   }
 
   .home-banner-container {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
     margin-top: 40px;
-    height: 500px;
-    margin-right: 140px;
+    height: 465px;
   }
 
   .home-banner-container h1 {
@@ -73,15 +71,5 @@
   }
 }
 
-@media (min-width: 1366px) {
-  .home-container {
-    margin-left: 80px;
-  }
-}
 
 
-@media (min-width: 1400px) {
-  .home-container {
-    margin-left: 20px;
-  }
-}
