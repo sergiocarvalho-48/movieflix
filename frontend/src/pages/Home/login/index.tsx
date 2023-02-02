@@ -85,6 +85,7 @@ const Login = () => {
               required: 'Campo obrigatório',
             })}
             type="password"
+            autoComplete='off'
             className={`form-control base-input ${
               errors.password ? 'is-invalid' : ''
             }`}

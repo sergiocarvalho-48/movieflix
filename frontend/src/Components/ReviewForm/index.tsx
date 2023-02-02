@@ -51,7 +51,7 @@ const ReviewForm = ({ movieId, onInsertReview }: Props) => {
         <div className="mb-4 review-form-card-input">
           <input
             {...register('text', {
-              required: 'Campo obrigatório',
+              required: 'Preenchimento de avaliação obrigatório',
             })}
             type="text"
             className={`form-control base-input ${

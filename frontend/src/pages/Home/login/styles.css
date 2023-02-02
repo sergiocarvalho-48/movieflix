@@ -61,3 +61,15 @@
     margin-bottom: 41px;
   }
 }
+
+@media (min-width: 1366px) {
+  .login-card {
+    margin-left: 170px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .login-card {
+    margin-left: 175px;
+  }
+}

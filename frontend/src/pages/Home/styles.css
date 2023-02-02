@@ -1,7 +1,7 @@
 .home-container {
   display: flex;
   justify-content: space-around;
-  padding: 17px 10px 17px 10px;
+  padding: 17px 10px 10px;
 }
 
 .home-banner-container {
@@ -18,22 +18,19 @@
 
 @media (min-width: 576px) {
   .home-container {
-    padding: 40px 50px 100px 50px;
-    height: 795px;
-  }
-
-  .home-form-container {
-    width: 100%;
+    padding: 40px 50px;
   }
 }
 
 @media (min-width: 768px) {
   .home-container {
-    padding: 40px 145px 300px 145px;
+    padding: 40px 145px;
   }
+}
 
-  .home-form-container {
-    width: 550px;
+@media (min-width: 992px) {
+  .home-container {
+    padding: 40px 256px;
   }
 }
 
@@ -76,14 +73,15 @@
   }
 }
 
+@media (min-width: 1366px) {
+  .home-container {
+    margin-left: 80px;
+  }
+}
+
+
 @media (min-width: 1400px) {
   .home-container {
-    margin-left: 0px;
+    margin-left: 20px;
   }
-
-  .home-banner-container {
-    height: 460px;
-    margin-right: 350px;
-  }
-
 }

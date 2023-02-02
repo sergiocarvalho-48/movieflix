@@ -50,6 +50,12 @@
   }
 }
 
+@media (min-width: 1366px) {
+  .nav-login-logout {
+    margin-right: 240px;
+  }
+}
+
 @media (min-width: 1400px) {
   .nav-login-logout {
     margin-right: 240px;
